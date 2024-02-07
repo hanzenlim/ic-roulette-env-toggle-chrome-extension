@@ -10,6 +10,7 @@ chrome.action.onClicked.addListener((tab) => {
     newUrl = newUrl.replace("production", "staging");
   }
 
+  // Backward compatibility for the old roulette url
   else if (newUrl.includes("experiments.instacart.tools")) {
     newUrl = newUrl.replace("experiments.instacart.tools", "web-tux-tools-stg.instacart.team");
   }
