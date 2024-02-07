@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Insta Roulette Modifier",
+  "version": "1.0",
+  "description": "Modify the current tab from prod to staging.",
+  "permissions": ["activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "images/donut.png",
+      "48": "images/donut.png",
+      "128": "images/donut.png"
+    }
+  },
+  "icons": {
+    "16": "images/donut.png",
+    "48": "images/donut.png",
+    "128": "images/donut.png"
+  }
+}
+
